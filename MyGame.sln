@@ -1,10 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGame", "MyGame\MyGame.csproj", "{CA5F32E6-6C61-4FC5-BACF-C391756A66D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGame.Run", "MyGame.Run\MyGame.Run.csproj", "{CA5F32E6-6C61-4FC5-BACF-C391756A66D7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGame.Core", "MyGame.Core\MyGame.Core.csproj", "{D6B526B7-8186-4EE6-8530-10327C9A564B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGame.UnitTests", "MyGame.UnitTests\MyGame.UnitTests.csproj", "{61F93EF4-2B2E-49CA-A9BD-E02C2AE49F9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGame.GUI", "MyGame.GUI\MyGame.GUI.csproj", "{C2B063A1-9CFC-492E-AD21-4558E0100A91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +26,9 @@ Global
 		{61F93EF4-2B2E-49CA-A9BD-E02C2AE49F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61F93EF4-2B2E-49CA-A9BD-E02C2AE49F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61F93EF4-2B2E-49CA-A9BD-E02C2AE49F9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2B063A1-9CFC-492E-AD21-4558E0100A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2B063A1-9CFC-492E-AD21-4558E0100A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2B063A1-9CFC-492E-AD21-4558E0100A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2B063A1-9CFC-492E-AD21-4558E0100A91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
