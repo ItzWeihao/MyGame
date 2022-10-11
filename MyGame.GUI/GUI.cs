@@ -1,9 +1,6 @@
 ﻿public class GUI
 {
-    public GUI()
-    {
-        
-    }
+    public GUI() {}
 
     private String name, age;
 
@@ -22,7 +19,7 @@
 
     public void call_detail()
     {
-        Console.WriteLine("Name: " + name + "\nAge: " + age);
+        Console.Write("Name: " + name + "\nAge: " + age);
     }
 }
 
