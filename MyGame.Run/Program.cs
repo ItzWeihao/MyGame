@@ -1,15 +1,17 @@
 ﻿using MyGame.Core;
+using MyGame.GUI;
 
 namespace MyGame.Run;
-
-public class Program
+public static class Program
 {
+    // Calling GUI and Core for use
+    private static readonly PlayerFunctions PlayerFunctions = new PlayerFunctions();
+    private static readonly Gui Gui = new Gui();
+    
+    // Start of the Program
     public static void Main(string[] args)
     {
-        var app = new Program();
-        var s = new Class1();
-        var g = new GUI();
-        g.main_menu();
-        g.call_detail();
+        Gui.main_menu();
+        PlayerFunctions.player_choice(Gui.Answer);
     }
 }
