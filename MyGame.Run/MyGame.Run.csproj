@@ -14,4 +14,13 @@
         <ProjectReference Include="..\MyGame.GUI\MyGame.GUI.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="bin\Debug\net6.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="bin\Debug\net6.0\assets\gui\main_menu.txt" />
+      <None Include="bin\Debug\net6.0\assets\stats\player_stats.txt" />
+    </ItemGroup>
+
 </Project>

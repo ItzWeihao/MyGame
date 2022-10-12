@@ -1,21 +1,21 @@
-﻿namespace MyGame.Core;
+﻿using MyGame.GUI;
+
+namespace MyGame.Core;
 public class PlayerFunctions
 {
-    public void player_choice(string? answer)
+    private readonly MyGameState? _state = new MyGameState();
+    private readonly Gui Gui = new Gui();
+
+    public void PlayerMainMenuChoice(string? answer)
     {
         switch (answer)
         {
             case "1":
-                Console.WriteLine("hey1");
+                _state?.Running();
+                if (_state.state == true) { Gui.main_menu(); }
                 break;
             case "2":
-                Console.WriteLine("hey2");
-                break;
-            case "3":
-                Console.WriteLine("hey3");
-                break;
-            case "4":
-                Console.WriteLine("hey4");
+                _state?.Exiting();
                 break;
         }
     }
